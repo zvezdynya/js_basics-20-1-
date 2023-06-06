@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>API</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <select name="star_wars" id="select">
+            <option value="films">Фильмы</option>
+            <option value="people">Люди</option>
+            <option value="planets">Планета</option>
+            <option value="species">Вид</option>
+            <option value="starships">Звездолет</option>
+            <option value="vehicles">Автомобиль</option>
+        </select>
+        <input type="text" id="index" placeholder="Введите номер">
+        <button id="search">Искать</button>
+        <div id="result"></div>
+        <div id="error"></div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
